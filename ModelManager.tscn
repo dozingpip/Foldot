@@ -2,8 +2,11 @@
 
 [ext_resource path="res://ModelManager.gd" type="Script" id=1]
 
-[node name="ModelManager" type="Node"]
+[node name="ModelManager" type="Node" index="0"]
 
 script = ExtResource( 1 )
+fold_file = "flappingBird"
+flat_fold = "flappingBirdFlat"
+material = "res://materials/test_material.tres"
 
 

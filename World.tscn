@@ -3,9 +3,13 @@
 [ext_resource path="res://ModelManager.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Camera.gd" type="Script" id=2]
 
-[node name="World" type="Node" index="0"]
+[node name="World" type="Node"]
 
 [node name="ModelManager" parent="." index="0" instance=ExtResource( 1 )]
+
+fold_file = "flappingBird"
+flat_fold = "flappingBirdFlat"
+material = "res://materials/test_material.tres"
 
 [node name="Camera" type="Camera" parent="." index="1"]
 
@@ -23,5 +27,6 @@ size = 1.0
 near = 0.05
 far = 100.0
 script = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
 
 

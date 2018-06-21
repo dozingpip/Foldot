@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Model.gd" type="Script" id=1]
 
-[node name="Model" type="MeshInstance" index="0"]
+[node name="Model" type="MeshInstance"]
 
 layers = 1
 material_override = null
