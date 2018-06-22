@@ -16,5 +16,6 @@ lod_max_hysteresis = 0.0
 mesh = null
 skeleton = NodePath("..")
 script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
 
 
